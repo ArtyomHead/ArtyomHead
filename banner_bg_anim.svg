@@ -1,0 +1,69 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				.screen {
+					width: 1920px; height: 1080px;
+					position: relative;
+					overflow: hidden;
+
+					background-color: #4400CC;
+					background-image: url("https://github.com/artyomhead/artyomhead/raw/master/12pxWavy.png");
+					background-size: 13px;
+					animation: bgAnim 133ms linear 0ms infinite;
+				}
+
+				@keyframes bgAnim {
+					from {
+						background-position-x: 0px; /*background-position-y: 0px;*/
+					}
+					to {
+						background-position-x: 13px; /*background-position-y: 12px;*/
+					}
+				}
+
+				.screen svg {
+					display: block;
+					width: 512px; height: 512px;
+					position: absolute;
+					animation: moveX 8s linear 0s infinite alternate, moveY 13s linear 0s infinite alternate;
+				}
+
+				@keyframes moveX {
+					from { left: 0; } to { left: 1408px; }
+				}
+
+				@keyframes moveY {
+					from { top: 0; } to { top: 568px; }
+				}
+			</style>
+			<div class="screen">
+				<svg id="ArtyomHead logo" author="Артём Головин" width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0)">
+					<path d="M151.212 234.404C151.212 234.404 150.851 240.478 151.212 244.365C151.614 248.703 153.39 255.449 153.39 255.449" stroke="url(#paint0_linear)" stroke-width="4" stroke-linejoin="round"/>
+					<path d="M106.625 232.066C106.625 232.066 106.797 237.407 107.487 243.469C108.177 249.531 107.487 255.449 107.487 255.449" stroke="url(#paint1_linear)" stroke-width="4" stroke-linejoin="round"/>
+					<path d="M160.726 172.772C162.822 181.351 162.981 186.475 162.676 195.301C162.187 209.452 156.61 227.794 154.444 230.61C152.278 233.426 140.628 242.332 130.399 242.524C119.703 242.726 107.437 233.426 105.054 230.61C102.672 227.794 96.7458 204.1 96.173 195.301C95.6003 186.502 96.1111 181.448 97.6894 172.772L97.6915 172.761C98.3626 169.073 99.8582 160.853 102.238 156.093C104.621 151.327 115.236 142.879 130.399 142.879C145.563 142.879 151.982 152.193 154.444 156.093C156.907 159.992 159.075 166.011 160.726 172.772Z" stroke="white" stroke-width="5" stroke-linejoin="round"/>
+					<path d="M130.007 215.114C125.419 215.064 118.316 214.529 118.316 214.529C118.316 214.529 125.419 217.503 130.007 217.452C134.142 217.407 140.529 214.529 140.529 214.529C140.529 214.529 134.142 215.159 130.007 215.114Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+					<path d="M144.61 174.939C140.785 175.135 136.162 179.921 136.162 179.921C136.162 179.921 141.543 184.101 145.477 183.82C149.14 183.558 153.708 179.271 153.708 179.271C153.708 179.271 148.54 174.736 144.61 174.939Z" fill="white" stroke="white" stroke-width="3"/>
+					<path d="M114.369 175.805C110.614 176.239 107.004 182.087 107.004 182.087C107.004 182.087 111.941 184.277 115.236 184.037C118.604 183.791 123.251 180.787 123.251 180.787C123.251 180.787 118.32 175.348 114.369 175.805Z" fill="white" stroke="white" stroke-width="3"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M78.6884 109.041L82.2948 100.771C95.9374 107.94 111.489 112 128 112C144.393 112 159.839 107.998 173.411 100.925L177.017 109.193C162.332 116.739 145.666 121 128 121C110.216 121 93.4451 116.682 78.6884 109.041Z" fill="white"/>
+					<path d="M122.505 4.54644L122.504 4.54796L37.5034 190.293L37.4999 190.301L37.4814 190.338C37.018 191.268 36.75 192.397 36.75 193.791C36.75 196.085 37.4445 198.478 38.9874 201.003L38.994 201.014L39.0017 201.024C40.1692 202.561 41.6041 203.896 43.3303 205.022L43.5704 205.179L43.6929 204.919L128.175 26.2329L212.358 205.022L212.478 205.277L212.717 205.127C214.363 204.097 215.659 202.828 216.65 201.336L216.665 201.313L216.668 201.308L216.685 201.285L216.48 201.142L216.685 201.285C218.45 198.753 219.25 196.27 219.25 193.791C219.25 192.152 218.963 190.938 218.519 190.045L218.5 190.007L218.496 190L133.766 4.39449L133.719 4.25391C133.55 3.7431 133.144 3.1725 132.056 2.63781C130.857 2.04832 129.574 1.75 128.17 1.75C126.444 1.75 125.224 2.06098 124.373 2.51886C123.563 2.95459 122.949 3.59376 122.508 4.53963L122.508 4.53979L122.505 4.54644Z" fill="white" stroke="white" stroke-width="0.5"/>
+					</g>
+					<defs>
+					<linearGradient id="paint0_linear" x1="152.221" y1="234.404" x2="152.221" y2="255.449" gradientUnits="userSpaceOnUse">
+					<stop stop-color="white"/>
+					<stop offset="1" stop-color="white" stop-opacity="0"/>
+					</linearGradient>
+					<linearGradient id="paint1_linear" x1="107.21" y1="232.066" x2="107.21" y2="255.449" gradientUnits="userSpaceOnUse">
+					<stop stop-color="white"/>
+					<stop offset="1" stop-color="white" stop-opacity="0"/>
+					</linearGradient>
+					<clipPath id="clip0">
+					<rect width="256" height="256" fill="white"/>
+					</clipPath>
+					</defs>
+				</svg>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
